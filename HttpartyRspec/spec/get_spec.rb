@@ -4,8 +4,7 @@ describe 'Fazer uma requisição' do
         #@primeira_opcao = HTTParty.get('https://api-de-tarefas.herokuapp.com/contacts')
         #puts @primeira_opcao
 
-        @melhor_opcao = Contato.get('/contacts')
-        puts @melhor_opcao
+        @melhor_opcao = Contato.get('/contacts/1790')
+        #puts @melhor_opcao
     end
-  
 end
