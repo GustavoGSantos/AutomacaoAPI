@@ -1,7 +1,7 @@
 module Contato
     include HTTParty
     #url base
-    base_uri 'https://api-de-tarefas.herokuapp.com'
+    base_uri CONFIG['url_padrao']
     #Opcoes do service
     format :json
     headers Accept: 'application/vnd.tasksmanager.v2',
